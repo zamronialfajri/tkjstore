@@ -20,7 +20,7 @@ include 'components/wishlist_cart.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Search page</title>
+   <title>TKJ Computer Store</title>
    
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -70,7 +70,7 @@ include 'components/wishlist_cart.php';
    <?php
          }
       }else{
-         echo '<p class="empty">no products found!</p>';
+         echo '<p class="empty">tidak ada produk yang ditemukan!</p>';
       }
    }
    ?>

@@ -34,7 +34,7 @@ if(isset($_GET['delete'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Placed Orders.</title>
+   <title>Status Pesanan</title>
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
@@ -47,7 +47,7 @@ if(isset($_GET['delete'])){
 
 <section class="orders">
 
-<h1 class="heading">Placed Orders.</h1>
+<h1 class="heading">Status Pesanan</h1>
 
 <div class="box-container">
 
@@ -81,7 +81,7 @@ if(isset($_GET['delete'])){
    <?php
          }
       }else{
-         echo '<p class="empty">no orders placed yet!</p>';
+         echo '<p class="empty">belum ada pesanan yang dilakukan!</p>';
       }
    ?>
 

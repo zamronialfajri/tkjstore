@@ -50,7 +50,7 @@ include 'components/wishlist_cart.php';
          <div class="content">
             <span>Upto 50% Off</span>
             <h3>Latest Smartphones</h3>
-            <a href="category.php?category=smartphone" class="btn">Shop Now</a>
+            <a href="category.php?category=smartphone" class="btn">Belanja Sekarang</a>
          </div>
       </div>
 
@@ -61,7 +61,7 @@ include 'components/wishlist_cart.php';
          <div class="content">
             <span>Upto 50% off</span>
             <h3>Latest Watches</h3>
-            <a href="category.php?category=watch" class="btn">Shop Now.</a>
+            <a href="category.php?category=watch" class="btn">Belanja Sekarang</a>
          </div>
       </div>
 
@@ -72,7 +72,7 @@ include 'components/wishlist_cart.php';
          <div class="content">
             <span>upto 50% off</span>
             <h3>Latest headsets</h3>
-            <a href="shop.php" class="btn">Shop Now.</a>
+            <a href="shop.php" class="btn">Belanja Sekarang</a>
          </div>
       </div>
 
@@ -88,7 +88,7 @@ include 'components/wishlist_cart.php';
 
 <section class="category">
 
-   <h1 class="heading">Shop by Category</h1>
+   <h1 class="heading">Belanja Berdasarkan Kategori</h1>
 
    <div class="swiper category-slider">
 
@@ -144,7 +144,7 @@ include 'components/wishlist_cart.php';
 
 <section class="home-products">
 
-   <h1 class="heading">Latest products</h1>
+   <h1 class="heading">Produk Terbaru</h1>
 
    <div class="swiper products-slider">
 
@@ -174,7 +174,7 @@ include 'components/wishlist_cart.php';
    <?php
       }
    }else{
-      echo '<p class="empty">no products added yet!</p>';
+      echo '<p class="empty">belum ada produk yang ditambahkan!</p>';
    }
    ?>
 

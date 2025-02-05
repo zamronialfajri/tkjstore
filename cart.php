@@ -40,7 +40,7 @@ if(isset($_POST['update_qty'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Shopping Cart</title>
+   <title>TKJ Computer Store</title>
    
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -55,7 +55,7 @@ if(isset($_POST['update_qty'])){
 
 <section class="products shopping-cart">
 
-   <h3 class="heading">Shopping cart</h3>
+   <h3 class="heading">Keranjang Belanja</h3>
 
    <div class="box-container">
 
@@ -89,10 +89,10 @@ if(isset($_POST['update_qty'])){
    </div>
 
    <div class="cart-total">
-      <p>Grand Total : <span>Nrs.<?= $grand_total; ?>/-</span></p>
-      <a href="shop.php" class="option-btn">Continue Shopping.</a>
-      <a href="cart.php?delete_all" class="delete-btn <?= ($grand_total > 1)?'':'disabled'; ?>" onclick="return confirm('delete all from cart?');">Delete All Items ?</a>
-      <a href="checkout.php" class="btn <?= ($grand_total > 1)?'':'disabled'; ?>">Proceed to Checkout.</a>
+      <p>Total Keseluruhan: <span>Nrs.<?= $grand_total; ?>/-</span></p>
+      <a href="shop.php" class="option-btn">Lanjutkan Belanja.</a>
+      <a href="cart.php?delete_all" class="delete-btn <?= ($grand_total > 1)?'':'disabled'; ?>" onclick="return confirm('delete all from cart?');">Hapus Semua Item?</a>
+      <a href="checkout.php" class="btn <?= ($grand_total > 1)?'':'disabled'; ?>">Proses Untuk Checkout.</a>
    </div>
 
 </section>
