@@ -17,6 +17,7 @@ if(isset($_POST['update'])){
    $name = filter_var($name, FILTER_SANITIZE_STRING);
    $price = $_POST['price'];
    $price = filter_var($price, FILTER_SANITIZE_STRING);
+   $price = str_replace('.', '', $price);
    $details = $_POST['details'];
    $details = filter_var($details, FILTER_SANITIZE_STRING);
 
@@ -132,7 +133,7 @@ if(isset($_POST['update'])){
       <span>Update Name</span>
       <input type="text" name="name" required class="box" maxlength="100" placeholder="enter product name" value="<?= $fetch_products['name']; ?>">
       <span>Update Price</span>
-      <input type="number" name="price" required class="box" min="0" max="9999999999" placeholder="enter product price" onkeypress="if(this.value.length == 10) return false;" value="<?= $fetch_products['price']; ?>">
+      <input type="text" name="price" required class="box" placeholder="enter product price (contoh: 7.500.000)" value="<?= $fetch_products['price']; ?>">
       <span>Update Details</span>
       <textarea name="details" class="box" required cols="30" rows="10"><?= $fetch_products['details']; ?></textarea>
       <span>Update image 01</span>

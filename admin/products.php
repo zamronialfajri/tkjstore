@@ -16,6 +16,7 @@ if(isset($_POST['add_product'])){
    $name = filter_var($name, FILTER_SANITIZE_STRING);
    $price = $_POST['price'];
    $price = filter_var($price, FILTER_SANITIZE_STRING);
+   $price = str_replace('.', '', $price);
    $details = $_POST['details'];
    $details = filter_var($details, FILTER_SANITIZE_STRING);
 
@@ -113,7 +114,7 @@ if(isset($_GET['delete'])){
          </div>
          <div class="inputBox">
             <span>Product Price (required)</span>
-            <input type="number" min="0" class="box" required max="9999999999" placeholder="enter product price" onkeypress="if(this.value.length == 10) return false;" name="price">
+            <input type="text" class="box" required placeholder="enter product price (contoh: 7.500.000)" name="price">
          </div>
         <div class="inputBox">
             <span>Image 01 (required)</span>
