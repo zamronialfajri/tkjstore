@@ -99,39 +99,34 @@ include 'components/wishlist_cart.php';
       <h3>Laptop</h3>
    </a>
 
-   <a href="category.php?category=tv" class="swiper-slide slide">
+   <a href="category.php?category=pc" class="swiper-slide slide">
       <img src="images/icon-2.png" alt="">
-      <h3>Television</h3>
+      <h3>PC</h3>
    </a>
 
-   <a href="category.php?category=camera" class="swiper-slide slide">
-      <img src="images/icon-3.png" alt="">
-      <h3>Camera</h3>
-   </a>
-
-   <a href="category.php?category=mouse" class="swiper-slide slide">
-      <img src="images/icon-4.png" alt="">
-      <h3>Mouse</h3>
-   </a>
-
-   <a href="category.php?category=fridge" class="swiper-slide slide">
-      <img src="images/icon-5.png" alt="">
-      <h3>Fridge</h3>
-   </a>
-
-   <a href="category.php?category=washing" class="swiper-slide slide">
-      <img src="images/icon-6.png" alt="">
-      <h3>Washing machine</h3>
-   </a>
-
-   <a href="category.php?category=smartphone" class="swiper-slide slide">
+   <a href="category.php?category=peripheral pc" class="swiper-slide slide">
       <img src="images/icon-7.png" alt="">
-      <h3>Smartphone</h3>
+      <h3>Peripheral PC</h3>
    </a>
 
-   <a href="category.php?category=watch" class="swiper-slide slide">
+   <a href="category.php?category=monitor" class="swiper-slide slide">
+      <img src="images/icon-3.png" alt="">
+      <h3>Monitor</h3>
+   </a>
+
+   <a href="category.php?category=gaming chair" class="swiper-slide slide">
+      <img src="images/icon-4.png" alt="">
+      <h3>Gaming Chair</h3>
+   </a>
+
+   <a href="category.php?category=networking" class="swiper-slide slide">
+      <img src="images/icon-5.png" alt="">
+      <h3>Networking</h3>
+   </a>
+
+   <a href="category.php?category=headset" class="swiper-slide slide">
       <img src="images/icon-8.png" alt="">
-      <h3>Watch</h3>
+      <h3>Headset</h3>
    </a>
 
    </div>
