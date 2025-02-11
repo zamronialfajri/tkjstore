@@ -105,27 +105,27 @@ include 'components/wishlist_cart.php';
    </a>
 
    <a href="category.php?category=peripheral pc" class="swiper-slide slide">
-      <img src="images/icon-7.png" alt="">
+      <img src="images/icon-3.png" alt="">
       <h3>Peripheral PC</h3>
    </a>
 
    <a href="category.php?category=monitor" class="swiper-slide slide">
-      <img src="images/icon-3.png" alt="">
+      <img src="images/icon-4.png" alt="">
       <h3>Monitor</h3>
    </a>
 
    <a href="category.php?category=gaming chair" class="swiper-slide slide">
-      <img src="images/icon-4.png" alt="">
+      <img src="images/icon-5.png" alt="">
       <h3>Gaming Chair</h3>
    </a>
 
    <a href="category.php?category=networking" class="swiper-slide slide">
-      <img src="images/icon-5.png" alt="">
+      <img src="images/icon-6.png" alt="">
       <h3>Networking</h3>
    </a>
 
    <a href="category.php?category=headset" class="swiper-slide slide">
-      <img src="images/icon-8.png" alt="">
+      <img src="images/icon-7.png" alt="">
       <h3>Headset</h3>
    </a>
 

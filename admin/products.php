@@ -114,7 +114,7 @@ if(isset($_GET['delete'])){
          </div>
          <div class="inputBox">
             <span>Product Price (required)</span>
-            <input type="text" class="box" required placeholder="enter product price (contoh: 7.500.000)" name="price">
+            <input type="text" class="box" required placeholder="enter product price" name="price">
          </div>
         <div class="inputBox">
             <span>Image 01 (required)</span>
