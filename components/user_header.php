@@ -15,7 +15,7 @@
 
    <section class="flex">
 
-      <a href="home.php" class="logo">TKJStore<span>.com</span></a>
+      <a href="home.php" class="logo">FusionX<span>.com</span></a>
 
       <nav class="navbar">
          <a href="home.php">Home</a>

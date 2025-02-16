@@ -36,6 +36,6 @@
 
    </section>
 
-   <div class="credit">&copy; copyright @ <?= date('Y'); ?> by <span>Zamroni Alfajri</span> | all rights reserved!</div>
+   <div class="credit">&copy; Copyright @ <?= date('Y'); ?> by <span>Zamroni Alfajri</span> | all rights reserved!</div>
 
 </footer>
