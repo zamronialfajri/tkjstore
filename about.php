@@ -43,9 +43,9 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>Developer's Message:</h3>
-         <p>Hey There ! I'm Harsh Chaudhary. A Student of BE in Software Engineering Department from NCIT College [Batch : 2023] . I love designing websites and exploring new things. Learning new things is my hobby.</p>
+         <p>FusionX dikembangkan oleh sekelompok siswa kelas 12 Teknik Komputer dan Jaringan (TKJ) yang memiliki minat besar di dunia teknologi. Website ini hadir sebagai platform jual beli perangkat komputer, laptop, periferal PC, monitor, kursi gaming, serta alat-alat jaringan seperti router dan switch. Dengan semangat inovasi dan pengalaman di bidang IT, kami berkomitmen untuk menyediakan produk berkualitas dengan pelayanan terbaik. FusionX bukan sekadar marketplace, tapi juga bentuk dedikasi kami dalam mendukung perkembangan teknologi di Indonesia.</p>
 
-         <p>I would like to thank <a href="https://www.facebook.com/er.ashokbasnet" target="_blank">Er. Ashok Basnet</a> Sir for guiding me through the session and making me able to develop projects like this. </p>
+         <p>Kami selalu siap membantu! Jika Anda memiliki pertanyaan, membutuhkan rekomendasi produk, atau mengalami kendala terkait pembelian dan penggunaan perangkat, jangan ragu untuk menghubungi kami. Tim FusionX akan dengan senang hati memberikan solusi terbaik untuk Anda. Hubungi kami melalui email, WhatsApp, atau media sosial kami, dan kami akan merespons secepat mungkin!</p>
          <a href="contact.php" class="btn">Contact Us</a>
       </div>
 
@@ -63,7 +63,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="swiper-slide slide">
          <img src="images/pic-5.jpg" alt="">
-         <p>Been using their services for quite a bit and have never had an issue with the quality of their products. Online e-products working great as well. Only issue I have is they usually deliver when I'm a little caught up, though I've set a preferred delivery time. Everything else has been good.</p>
+         <p>Saya telah menggunakan layanan FusionX cukup lama dan tidak pernah mengalami masalah dengan kualitas produk mereka. Produk yang saya beli juga berfungsi dengan baik. Satu-satunya kendala yang saya hadapi adalah mereka biasanya mengirimkan pesanan saat saya sedang sibuk, meskipun saya sudah menetapkan waktu pengiriman yang diinginkan. Selebihnya produk mereka bagus bagus.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>

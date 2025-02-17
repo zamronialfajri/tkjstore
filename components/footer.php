@@ -28,14 +28,14 @@
 
       <div class="box">
          <h3>Follow Us</h3>
-         <a href="https://www.facebook.com/harshchaudharynp" target="_blank"><i class="fab fa-facebook-f"></i>facebook</a>
+         <a href="https://www.facebook.com/harshchaudharynp" target="_blank"><i class="fab fa-facebook-f"></i>Facebook</a>
          <a href="https://x.com/alpajiii" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
          <a href="https://www.instagram.com/heyrii__/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
-         <a href="https://www.linkedin.com/in/harsh-chaudhary-15763a150/" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
+         <a href="https://github.com/zamronialfajri" target="_blank"><i class="fab fa-github"></i>Github</a>
       </div>
 
    </section>
 
-   <div class="credit">&copy; Copyright @ <?= date('Y'); ?> by <span>Zamroni Alfajri</span> | all rights reserved!</div>
+   <div class="credit">&copy; Copyright @ <?= date('Y'); ?> by <span>Zamroni Alfajri</span> | All Rights Reserved!</div>
 
 </footer>

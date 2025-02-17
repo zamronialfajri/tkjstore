@@ -49,8 +49,8 @@ include 'components/wishlist_cart.php';
          </div>
          <div class="content">
             <span>Upto 50% Off</span>
-            <h3>Latest Smartphones</h3>
-            <a href="category.php?category=smartphone" class="btn">Belanja Sekarang</a>
+            <h3>Latest Laptop</h3>
+            <a href="category.php?category=laptop" class="btn">Belanja Sekarang</a>
          </div>
       </div>
 
@@ -60,7 +60,7 @@ include 'components/wishlist_cart.php';
          </div>
          <div class="content">
             <span>Upto 50% off</span>
-            <h3>Latest Watches</h3>
+            <h3>Latest Macbook</h3>
             <a href="category.php?category=watch" class="btn">Belanja Sekarang</a>
          </div>
       </div>
@@ -70,7 +70,7 @@ include 'components/wishlist_cart.php';
             <img src="images/home-img-3.png" alt="">
          </div>
          <div class="content">
-            <span>upto 50% off</span>
+            <span>Upto 50% off</span>
             <h3>Latest headsets</h3>
             <a href="shop.php" class="btn">Belanja Sekarang</a>
          </div>
